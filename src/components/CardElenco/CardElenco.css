@@ -1,0 +1,78 @@
+.cardElenco{
+    /* margin-top: 80px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #111;
+    border-radius: 4px;
+    position: absolute; */
+
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(235, 219, 219);
+    border-radius: 8px;
+    margin: 1rem;
+    position: relative;
+}
+
+
+.cardElenco img{
+    border: solid 4px #fff;
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    top: 1px;
+    position: relative;
+    border-radius: 4px;
+}
+
+.ator{
+    font-weight: bold;
+    padding-right: 80px;
+    
+}
+
+.ator {
+    font-weight: bold;
+    padding-right: 80px;
+    
+}
+
+.valor {
+    font-weight: bold;
+    padding-right: 145px;
+    
+    
+}
+
+.like{
+    cursor: pointer;
+    padding-bottom: -50px;
+       
+}
+
+.control__btn{
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgb(15, 78, 173);
+    border-radius: 8px;
+    margin: 1rem;
+    position: relative;
+}
+
+
+.cardElenco .button {
+    background-color: #06F;
+    color: #FFF;
+    padding: .5rem 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+  }
